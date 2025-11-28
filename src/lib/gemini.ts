@@ -1,8 +1,7 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
-// In a real app, this should be an env var.
-// User provided key: AIzaSyBT1hT5gtk2wbaFGeESs1rLmmWW5b6_iCY
-const API_KEY = "AIzaSyBT1hT5gtk2wbaFGeESs1rLmmWW5b6_iCY";
+
+const API_KEY = "YOUR API KEY";
 
 const genAI = new GoogleGenerativeAI(API_KEY);
 
